@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6
     margin-bottom: 1.1em;
 }
 
-.features,
+
 .blog,
 .gallery,
 .clients,
@@ -20,6 +20,12 @@ h1, h2, h3, h4, h5, h6
 {
     padding-top: 3.3em;
     padding-bottom: 4.2em;
+}
+
+.features
+{
+	padding-top: 3.3em;
+	padding-bottom: 4em;
 }
 
 span.typcn::before, i.typcn::before
@@ -49,7 +55,7 @@ span.x4:before, i.x4:before
 
 header .container-fluid
 {
-    background-image: url('https://unsplash.it/2560/1707?image=961');
+    background-image: url('wall2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -163,6 +169,56 @@ header .container-fluid
     ),
 
     url(https://unsplash.it/4000/3000?image=528);
+}
+
+.horL{
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 31px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 1170px;
+    height: 254px;
+    //left: 367px;
+    //top: 55px;
+    content: '';
+    z-index: 30;
+    background: url(../images/horL.png) no-repeat;
+}
+
+.about1{
+    float: right;
+    text-align: right;
+}
+
+.about2{
+    float: left;
+    text-align: left;
+}
+
+.centeredImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.pic1Ab{
+    padding-bottom: 15px;
+    float: right;
+    padding: 34px;
+    padding-top: 51px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.pic2Ab{
+    float: left;
+    padding: 40px;
+    padding-top: 51px;
+    padding-right: 37px;
+    padding-bottom: 39px;
 }
 
 .prefooter h1,
