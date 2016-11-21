@@ -142,7 +142,7 @@ header .container-fluid
 
 .number .container-fluid
 {
-    background-image: url('https://unsplash.it/3000/2000?image=685');
+    /*background-image: url('https://unsplash.it/3000/2000?image=685');*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -181,7 +181,7 @@ header .container-fluid
 
 .story .container-fluid
 {
-    background-image: url('https://unsplash.it/3000/2000?image=531');
+    /*background-image: url('https://unsplash.it/3000/2000?image=531');*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -194,12 +194,9 @@ header .container-fluid
 
 .prefooter .container-fluid
 {
-    background: linear-gradient(
-      rgba(33, 37, 43, 0.6),
-      rgba(33, 37, 43, 0.6)
-    ),
+    background-color: rgba(85, 85, 85, 1);
 
-    url(https://unsplash.it/4000/3000?image=528);
+    
 }
 
 .horL{
@@ -269,7 +266,7 @@ header .container-fluid
 
 footer
 {
-    background-color: rgba(36, 50, 59, 1);
+    background-color: rgba(35, 35, 35, 1);
     padding-top: 2em;
     padding-bottom: 1.2em;
 }
