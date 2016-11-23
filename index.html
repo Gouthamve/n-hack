@@ -402,7 +402,7 @@ where new boundaries for technology are discovered.</p>
 					M.c = document.getElementById( 'canvas' );
 					M.ctx = M.c.getContext( '2d' );
 					var viewPortWidth = document.getElementsByTagName('body')[0].clientWidth;
-					M.c.width = Math.min(viewPortWidth, 500);
+					M.c.width = Math.min(viewPortWidth - 20, 500);
 					M.c.height = 500;
 
 					M.ctx.shadowBlur = 0;
