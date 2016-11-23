@@ -183,6 +183,7 @@ header .container-fluid
 .jumbotron
 {
     background: none;
+    padding-top: 7em;
     text-align: center;
 }
 
