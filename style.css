@@ -39,6 +39,9 @@ html, body {
             user-select: none; 
 }
 
+header{
+    height: 100vh;
+}
 
 #stats {
     z-index: 100;
