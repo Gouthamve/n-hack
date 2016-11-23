@@ -430,18 +430,18 @@ where new boundaries for technology are discovered.</p>
 					// not doing this, kills CPU
 					// M.swapCharacters();
 
-					window.onresize = function () {
-						window.cancelAnimationFrame(M.animation);
-						M.animation = null;
-						M.ctx.clearRect(0, 0, M.WIDTH, M.HEIGHT);
-						M.codesCounter = 0;
+					// window.onresize = function () {
+					// 	window.cancelAnimationFrame(M.animation);
+					// 	M.animation = null;
+					// 	M.ctx.clearRect(0, 0, M.WIDTH, M.HEIGHT);
+					// 	M.codesCounter = 0;
 
-						M.ctx2.clearRect(0, 0, M.WIDTH, M.HEIGHT);
+					// 	M.ctx2.clearRect(0, 0, M.WIDTH, M.HEIGHT);
 
-						M.WIDTH = window.innerWidth;
-						M.HEIGHT = window.innerHeight;
-						M.init();
-					};
+					// 	M.WIDTH = window.innerWidth;
+					// 	M.HEIGHT = window.innerHeight;
+					// 	M.init();
+					// };
 				},
 
 				loop: function () {
