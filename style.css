@@ -60,32 +60,14 @@ header{
 {
 
 	padding-top: 3.3em;
-	padding-bottom: 5em;
+	padding-bottom: 4em;
 }
 
 #home{
     background-image: url('wall2.jpg');
 }
 
-#vr #vrtext{
-    max-height: 0;
-    transition: max-height 0.75s ease-out;
-   
-}
 
-
-#cv #cvtext{
-    max-height: 0;
-    transition: max-height 0.75s ease-out;
- 
-}
-
-
-#ml #mltext{
-    max-height: 0;
-    transition: max-height 0.75s ease-out;
-    
-}
 
 
 .featSection{
