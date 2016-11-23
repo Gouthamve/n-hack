@@ -36,7 +36,7 @@
             <li><a href="#about">About us</a></li>
             <li><a href="#feat">Themes</a></li>
             <li><a href="#jury">Jury and mentors</a></li>
-            <!-- <li><a href="#news">Apply</a></li> -->
+            <li><a href="#faq">FAQ</a></li>
                         
             
             <!-- <li><a href="#photos">Look my Photos</a></li> -->
@@ -50,19 +50,23 @@
 
         <header id="home">
             <div class="container-fluid">
+
                 <!-- change the image in style.css to the class header .container-fluid [approximately row 50] -->
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 col-xs-10">
+                        
+                        <div class="col-md-1 col-xs-2 text-center">
+                          <div class="menu-btn"><span class="hamburger"><font color="white">&#9776;</font></span></div>
+                        </div>
+
+                        <div class="col-md-2  col-md-offset-9 col-xs-10">
                         <!-- <h3 style="color: #FFFFFF">&#951;vision</h3> -->
                             <a href="https://nvision.org.in/" class="thumbnail logo">
                                 <img src="logo.png" alt="nvision" class="img-responsive" height="400px" width="150px">
                             </a>
                         </div>
-                        <div class="col-md-1 col-md-offset-8 col-xs-2 text-center">
-                          <div class="menu-btn"><span class="hamburger"><font color="white">&#9776;</font></span></div>
-                        </div>
                     </div>
+                    
                     <div class="jumbotron">
                         <h1><small>Welcome to</small><br />
                         <strong><big>&#951;-hack</big></strong></h1>
@@ -90,44 +94,36 @@ where new boundaries for technology are discovered.</p>
                 </div>
             </div>
         </section>
-        <section id="feat" class="blog wow fadeInUp" data-wow-delay="300ms">
+        <section id="feat" class="blog wow fadeInUp featSection" data-wow-delay="300ms">
             <div class="container">
             <h2>Themes</h2>                
                 <div class="row features">                    
-                    <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="100ms">
+                    <div  id="vr" class="col-md-4 text-center wow fadeInUp" data-wow-delay="100ms">
                         <!-- <span class="typcn typcn-pencil x3"></span> -->
                         <img src="google-cardboard.png" alt="VR and AR">
                         <h4>VR and AR</h4>
-                        <!-- <p>Virtual reality and alternate reality are to us, today, what the internet was to people in the nineties.</p> -->
+                        <p id="vrtext">Virtual reality and alternate reality provide a level of immersion that never been achieved before. It's time to discover how we can use this.</p>
                     </div>
-                    <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="300ms">
+                    <div id="cv" class="col-md-4 text-center wow fadeInUp" data-wow-delay="300ms">
                         <img src="webcam.png" alt="Computer Vision">
                         <!-- <span class="typcn typcn-camera-outline x3"></span> -->
                         <h4>Computer Vision</h4>
-                        <!-- <p>Computer vision is a field with great potential and applications.</p> -->
+                        <p id="cvtext">Computer vision isn't the new kid on the block, but there still exist a vast number of problems which can be solved using it.</p>
                     </div>
-                    <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="500ms">
+                    <div id="ml" class="col-md-4 text-center wow fadeInUp" data-wow-delay="500ms">
                         
                         <img src="robot.png" alt="Machine Learning">
                         <!-- <span class="typcn typcn-bookmark x3"></span> -->
                         <h4>Machine Learning</h4>
+                        <p id="mltext">How long will we teach machines what to do? Isn't it high time they learn themselves?</p>
                         <!-- <p>The hackathon  will take place at Collab House, near Jubilee Hills, Hyderabad.</p> -->
                     </div>
                 </div>
             </div>
         </section>
 
-        <br />
-        <br />
-        <br />
-
-
         
-        <section id="jury" class="story wow fadeInUp" data-wow-delay="300ms">
-
-
-
-
+        <section id="jury" class="story wow fadeInUp jurySection" data-wow-delay="300ms">
            <!-- <div style="position: relative;"> -->
         
             <div class="container">  
@@ -188,19 +184,63 @@ where new boundaries for technology are discovered.</p>
         </div> -->
         </section>
 
-        <br />
-        <br />
-        <br />
+        <section id="faq" class="blog wow fadeInUp faqSection" data-wow-delay="300ms">
+            <div class="container">
+            <h2>FAQ</h2>                
+                <div class="row features">                    
+                    <div  class="col-md-4 text-center wow fadeInUp" data-wow-delay="100ms">
+                        
+                        <h4>How does registration work?</h4>
+                        <p>Anyone can apply to us via the form linked above. We will contact you after the selection process. If you are accepted, you will have a week to confirm your attendance.</p>
+                    </div>
+                    <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="300ms">
+                        
+                        
+                        <h4>Does this cost money?</h4>
+                        <p >No! The hackathon is fully free and includes meals and snacks.</p>
+                    </div>
+                    <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="500ms">
+                        
+                        
+                        
+                        <h4>How will I get there?</h4>
+                        <p>They hackathon is at <a href="http://collab.house" style="color: #eee; text-decoration: underline">Collab House, near Jubilee Hills, Hyderabad.</a> I'm pretty sure it won't be hard finding your way there :)</p>
+                        <!-- <p>The hackathon  will take place at Collab House, near Jubilee Hills, Hyderabad.</p> -->
+                    </div>
+                </div>
+                <div class="row features">                    
+                    <div  class="col-md-4 text-center wow fadeInUp" data-wow-delay="100ms">
+                        
+                        <h4>What about teams?</h4>
+                        <p>Teams can have a maximum of 4 people. You can select teammates when you register, or you can register individually without specified teammates.</p>
+                    </div>
+                    <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="300ms">
+                        
+                        
+                        <h4>What if I don't have a team?</h4>
+                        <p>That's alright! We'll team you up with someone you can work with on the spot.</p>
+                    </div>
+                    <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="500ms">
+                        
+                        
+                        
+                        <h4>What if this FAQ didn’t answer my questions?</h4>
+                        <p>Feel free to contact any of the people listed <a href="#contact" style="color: #eee; text-decoration: underline">here</a> regarding any more doubts that you may have.</p>
+                        <!-- <p>The hackathon  will take place at Collab House, near Jubilee Hills, Hyderabad.</p> -->
+                    </div>
+                </div>
+            </div>
+        </section>
         
 
         
         <section class="clients wow fadeInUp" data-wow-delay="300ms">
             <div class="container">
-            <h4>Community partners</h4>
+            <h4>Powered By</h4>
                 <div class="row">
                 <center>
                     <div class="col-md-10">
-                        <img src="collabhouse.png" class="img-responsive" height="126" width="126" />
+                        <a target="_blank" href="http://collab.house"><img src="collabhouse.png" class="img-responsive" height="126" width="126" /></a>
                     </div>
                     </center>
                     
@@ -232,6 +272,7 @@ where new boundaries for technology are discovered.</p>
                 </div>
             </div>
         </section>
+
         <footer>
             <div class="container">
                 <div class="row">

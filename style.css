@@ -55,8 +55,75 @@ html, body {
 
 .features
 {
+
 	padding-top: 3.3em;
 	padding-bottom: 4em;
+}
+
+#vr #vrtext{
+    max-height: 0;
+    transition: max-height 0.75s ease-out;
+    overflow: hidden;
+}
+
+#vr:hover #vrtext{
+    max-height: 700px;
+    transition: max-height 0.75s ease-in;
+}
+
+#cv #cvtext{
+    max-height: 0;
+    transition: max-height 0.75s ease-out;
+    overflow: hidden;
+}
+
+#cv:hover #cvtext{
+    max-height: 700px;
+    transition: max-height 0.75s ease-in;
+}
+
+#ml #mltext{
+    max-height: 0;
+    transition: max-height 0.75s ease-out;
+    overflow: hidden;
+}
+
+#ml:hover #mltext{
+    max-height: 700px;
+    transition: max-height 0.75s ease-in;
+}
+
+.featSection{
+    background-color: #009688;
+}
+
+.featSection h4,
+.featSection h2{
+    color: #FFFFFF;
+}
+
+.featSection p{
+    color: #FFFFFF;
+    padding-top: -100px;
+}
+.jurySection{
+    background-color: #66BB6A;
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+
+
+.faqSection{
+    background-color: #EF5350;
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.faqSection h4,
+.faqSection h2,
+.faqSection p{
+    color: #FFFFFF;
 }
 
 span.typcn::before, i.typcn::before
@@ -110,7 +177,7 @@ header .container-fluid
 {
     background: none;
     border: 0px;
-    padding-top: 20px;
+    padding-top: 1.3em;
 }
 
 .jumbotron
